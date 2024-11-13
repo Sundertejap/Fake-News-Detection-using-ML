@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load('modelLR.joblib')
+model = joblib.load('modelDT.joblib')
 vector = joblib.load('vector.joblib')
 app = Flask(__name__)
 
